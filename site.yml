@@ -1,0 +1,6 @@
+---
+- hosts: yourbox
+  become: yes
+  gather_facts: yes
+  roles:
+    - COMMON

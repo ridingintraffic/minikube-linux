@@ -1,0 +1,5 @@
+---
+- import_tasks: essentials.yml
+- import_tasks: vim.yml
+- import_tasks: virtual-box.yml
+- import_tasks: mini-kube.yml

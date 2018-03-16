@@ -1,0 +1,16 @@
+---
+- name: Essentials | Ensure that the repositories are update
+  apt:
+    update_cache: yes
+
+- name: Essentials | Install all the essential packages
+  apt:
+    name: "{{ item }}"
+    update_cache: yes
+    state: installed
+  with_items:
+
+    - git
+    - curl
+    - wget
+
