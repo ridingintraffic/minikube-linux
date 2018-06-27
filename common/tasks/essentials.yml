@@ -9,7 +9,6 @@
     update_cache: yes
     state: installed
   with_items:
-
     - git
     - curl
     - wget
